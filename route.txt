@@ -1,0 +1,10 @@
+                                  Prefix Verb   URI Pattern                                                                                       Controller#Action
+                            api_v1_users POST   /api/v1/users(.:format)                                                                           api/v1/users#create {:format=>:json}
+                             api_v1_user GET    /api/v1/users/:id(.:format)                                                                       api/v1/users#show {:format=>:json}
+                                         PATCH  /api/v1/users/:id(.:format)                                                                       api/v1/users#update {:format=>:json}
+                                         PUT    /api/v1/users/:id(.:format)                                                                       api/v1/users#update {:format=>:json}
+                                         DELETE /api/v1/users/:id(.:format)                                                                       api/v1/users#destroy {:format=>:json}
+                           api_v1_orders GET    /api/v1/orders(.:format)                                                                          api/v1/orders#index {:format=>:json}
+                                         POST   /api/v1/orders(.:format)                                                                          api/v1/orders#create {:format=>:json}
+                            api_v1_order GET    /api/v1/orders/:id(.:format)                                                                      api/v1/orders#show {:format=>:json}
+                           api_v1_tokens POST   /api/v1/tokens(.:format)                                                                          api/v1/tokens#create {:format=>:json}

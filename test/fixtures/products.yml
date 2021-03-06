@@ -1,0 +1,20 @@
+one:
+  title: TV Haruna Plus
+  price: 9999.99
+  published: false
+  user: one
+  quantity: 5
+
+two:
+  title: Kongou Zenbook
+  price: 499.99
+  published: false
+  user: two
+  quantity: 5
+
+another_tv:
+  title: Cheap TV
+  price: 99.99
+  published: false
+  user: two
+  quantity: 5
