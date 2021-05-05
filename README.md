@@ -1,5 +1,5 @@
 # Market Place API
-Ill add a Dockerfile to make this application run on a containerized setup, yah Docker
+A Rails API made with json-serializer and jwt gem,  primarily intended for demo of basic CRUD concepts and pagination
 
 ~~~~~~~
 Routes
